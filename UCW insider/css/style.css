@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 15px 50px;
+}
+.myheader{
+    width: 100%;
+    height: auto;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+}
+.logo{
+    padding-top: 8px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title span{
+    color: red;
+    font-size: 32px;
+}
+.Mycardssec{
+    width: 100%;
+    height: auto;
+}
+.ourcards{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+}
+.card, .mb-3{
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.card1{
+    width: 100%;
+    height: auto;
+   background: #F8F8F8;
+}
+.card1 > .card-img-top{
+    width: 100%;
+    height: 40vh;
+}
+.cardbtn{
+   margin-top: 20px;
+}
+.mybtn{
+    padding: 8px 20px;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+}
+.mybtn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* desizn for footer  */
+footer{
+    width: 100%;
+    height: 55vh;
+    /* background-color: coral; */
+    border-top: 1px solid #000;
+}
+.wechat{
+    border-radius: 10px;
+}
+.socialicons{
+    width: 100%;
+    display: flex;
+    margin: 15px 0px;
+    justify-content: center;
+}
+.footermaindata{
+    width: 40rem;
+    height: 20rem;
+}
+.socialicons >a >img{
+    width: 50px;
+    height: 50px;
+}
+.footercontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.footerfix{
+    width: 40rem;
+    height: auto;
+    padding: 2px 10px;
+    text-align: center;
+    /* background-color: orangered; */
+}
+.footerlinks{
+    padding: 0px 10px;
+    color: grey;
+    border-right: 1px solid grey;
+}
+.footerpara{
+    font-size: 13px;
+}
+
+
+
+/* Useing media querry for responsive this desizn  */
+
+@media (max-width: 800px){
+    header {
+        padding: 10px 15px;
+    }
+    .ourcards {
+        padding: 10px 15px;
+    }
+    footer{
+        height: auto;
+    }
+    .card1 > .card-img-top {
+        width: 100%;
+        height: 25vh;
+    }
+}
